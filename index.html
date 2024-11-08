@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../HTML/style_cv.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>">
+        <title>John Smith's CV</title>
+        <meta charset="UTF-8">
+    </head>
+    <title>
+
+    </title>
+    <style>
+        /* General Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        background-color: #f4f4f9;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 1000px;
+        display: flex;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Sidebar */
+    .sidebar {
+        width: 30%;
+        background-color: #1a3b5d;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .profile h2 {
+        margin-bottom: 5px;
+    }
+
+    .contact-info, .education, .languages {
+        margin-bottom: 20px;
+    }
+
+    .contact-info h3, .education h3, .languages h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        color: #aad4f5;
+    }
+
+    .contact-info p, .education p, .languages p {
+        margin-bottom: 5px;
+    }
+
+    /* Main Content */
+    .main-content {
+        width: 70%;
+        padding: 20px;
+    }
+
+    .main-content h2 {
+        color: #1a3b5d;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .about, .experience, .skills {
+        margin-bottom: 20px;
+    }
+
+    .experience ul, .skills ul {
+        list-style-type: none;
+    }
+
+    .experience li, .skills li {
+        margin-bottom: 5px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .experience li::before, .skills li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #1a3b5d;
+    }
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="../IMAGE/cool-profile-picture-minion-13pu7815v42uvrsg.jpg" alt="">
+                    <div><h2>JOHN SMITH</h2></div>
+                    <div><h2>Web Developer</h2></div>
+                </div>
+                <div class="contact-info">
+                    <h1>CONTACK INFO</h1>
+                    <h5><i class="fa-solid fa-phone"></i>09123456789</h5>
+                    <h5><i class="fa-solid fa-envelope"></i>john@gmail.com</h5>
+                    <h5><i class="fa-solid fa-location-crosshairs"></i>Address</h5>
+                    <h5><i class="fa-solid fa-cake-candles"></i>Birthday</h5>
+                </div>
+                <div class="education">
+                    <div>1996-2002 - Sample Elementary School</div>
+                    <div>2002-2006 - Sample Secondary School</div>
+                    <div>2006-2010 - BSIS-Sample State College</div>
+                </div>
+                <div class="languages">
+                    <div>TAGALOG</div>
+                    <div>ENGLISH</div>
+                </div>
+            </div>
+            <div class="main-content">
+                <h1 class="main-content h1">About</h1>
+                <h5>As a highly motivated Web Developer, I specialize in both front-end and back-end development, with expertise in languages such as PHP, JavaScript, and MySQL. Over the years, I have successfully managed and delivered numerous projects, from simple landing pages to complex web applications. Known for my attention to detail and ability to troubleshoot effectively, I thrive in dynamic environments where I can continuously learn and implement new technologies. My goal is to leverage my skills to create intuitive, scalable solutions that enhance user experiences and drive business success.</h5>
+                <div class="main-content h2">
+                    <h1>EXERIENCES</h1>
+                </div>
+                <h5>2010 internship @ IT Company Crop</h5>
+                <h5>2010-2012 Junior Web Developer @ IT Company Corp</h5>
+                <h5>2012-2019 Full-stack Web Dev @ IT Solutions</h5>
+                <h5>2019-2024 Senior Web Developer @ Sample industries</h5>
+                <h1 class="main-content h3">PROFESSIONAL SKILL</h1>
+                <h5>PHP</h5>
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JAVASCRIPT</h5>
+                <h5>NODEJS</h5>
+                <h5>REACTJS</h5>
+                <h5>MYSQL</h5>
+                <h5>VBNET</h5>
+            </div>
+
+        </div>
+    </body>
